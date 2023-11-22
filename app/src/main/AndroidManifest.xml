@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.englishmahyou011">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/kafaat"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/kafaat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".ConversationActivity"
+            android:label="@string/category_conversation" />
+        <activity
+            android:name=".Common_phrases"
+            android:label="@string/category_common_phrases" />
+        <activity
+            android:name=".Common_words"
+            android:label="@string/category_common_words" />
+        <activity
+            android:name=".Basics"
+            android:label="@string/category_basics" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/category_numbers" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="@string/category_family" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/category_colors" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="@string/category_alphabet" />
+        <activity
+            android:name=".PronounsActivity"
+            android:label="@string/category_pronouns" />
+        <activity
+            android:name=".AnimalsActivity"
+            android:label="@string/category_animals" />
+        <activity
+            android:name=".BodyActivity"
+            android:label="@string/category_body" />
+        <activity
+            android:name=".ClothesActivity"
+            android:label="@string/category_clothes" />
+        <activity
+            android:name=".EducationActivity"
+            android:label="@string/category_education" />
+        <activity
+            android:name=".Phrases1Activity"
+            android:label="@string/category_phrases1" />
+        <activity
+            android:name=".Phrases2Activity"
+            android:label="@string/category_phrases2" />
+        <activity
+            android:name=".Phrases3Activity"
+            android:label="@string/category_phrases3" />
+        <activity
+            android:name=".Phrases4Activity"
+            android:label="@string/category_phrases4" />
+        <activity
+            android:name=".TimeActivity"
+            android:label="@string/category_time" />
+        <activity
+            android:name=".Parts_YearActivity"
+            android:label="@string/category_parts_of_year" />
+        <activity
+            android:name=".JobsActivity"
+            android:label="@string/category_jobs_professions" />
+        <activity
+            android:name=".FeelingsActivity"
+            android:label="@string/category_feelings" />
+        <activity
+            android:name=".VegetablesActivity"
+            android:label="@string/category_vegetables" />
+        <activity
+            android:name=".FruitsActivity"
+            android:label="@string/category_fruits" />
+    </application>
+
+</manifest>
